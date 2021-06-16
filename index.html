@@ -1,0 +1,831 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>IntCon Consultoria</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="intCon, consultoria, aplicativos, softwares, banco de dados" />
+    <meta name="description" content="A IntCon Consultoria cria soluções inteligentes para seu negócio">
+
+
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="http://www.intcon.com.br/">
+    <meta property="og:title" content="IntCon - Idéias para seu negócio">
+    <meta property="og:site_name" content="IntCon Consultoria">
+    <meta property="og:description" content="A IntCon Consultoria cria soluções inteligentes para seu negócio">
+    <meta property="og:image" content="http://www.intcon.com.br/">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="600">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img-newdev/Icon.ico">
+
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    <!-- ######### CSS STYLES ######### -->
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- responsive devices styles -->
+    <link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
+
+    <!-- animations -->
+    <link href="js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="css/colors/orange.css" />
+
+    <!-- mega menu -->
+    <link href="js/mainmenu/sticky.css" rel="stylesheet">
+    <link href="js/mainmenu/bootstrap.min.css" rel="stylesheet">
+    <link href="js/mainmenu/demo.css" rel="stylesheet">
+    <link href="js/mainmenu/menu.css" rel="stylesheet">
+
+    <!-- slide panel -->
+    <link rel="stylesheet" type="text/css" href="js/slidepanel/slidepanel.css">
+
+    <!-- Master Slider -->
+    <link rel="stylesheet" href="js/masterslider/style/masterslider.css" />
+    <link rel="stylesheet" href="js/masterslider/skins/default/style.css" />
+    <link rel="stylesheet" href="js/masterslider/style.css" />
+
+    <!-- cubeportfolio -->
+    <link rel="stylesheet" type="text/css" href="js/cubeportfolio/cubeportfolio.min.css">
+
+    <!-- tabs -->
+    <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
+    <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs2.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="js/carousel/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="js/carousel/skin.css" />
+
+    <!-- accordion -->
+    <link rel="stylesheet" href="js/accordion/accordion.css" type="text/css" media="all">
+
+    <!-- Lightbox -->
+    <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'CODIGO-INTERA-AQUI'], ['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <script>
+        $(function () {
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+        });
+    </script>
+
+    <style>
+        #dialog {
+            margin: 30px auto;
+            width: 95%;
+            padding: 30px;
+            background-color: #fffb8a;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="site_wrapper">
+
+        <header id="header" style="height: 90px;">
+
+            <div id="trueHeader">
+                <div class="wrapper">
+                    <div class="container">
+                        <!-- Logo -->
+                        <div class="logo"><a href="index.html" id="logo"></a></div>
+                        <!-- Menu -->
+                        <div class="menu_main">
+                            <div class="navbar yamm navbar-default">
+                                <div class="container">
+                                    <div class="navbar-header">
+                                        <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse"
+                                            data-target="#navbar-collapse-1"> <span>Menu</span>
+                                            <button type="button"> <i class="fa fa-bars"></i></button>
+                                        </div>
+                                    </div>
+                                    <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
+                                        <!-- Start UL ================ -->
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="index.html" class="active"><i class="fa fa-home"></i>
+                                                    Início</a></li>
+                                            <li><a href="sobre.html"><i class="fa fa-users"></i> Quem Somos</a></li>
+                                            <li class="dropdown yamm-fw"> <a href="#" data-toggle="dropdown"
+                                                    class="dropdown-toggle"><i class="fa fa-cogs"></i> Serviços</a>
+                                                <ul class="dropdown-menu">
+                                                    <li>
+                                                        <div class="yamm-content">
+                                                            <div class="row">
+                                                                <ul class="col-sm-6 col-md-6 list-unstyled ">
+                                                                    <li>
+                                                                        <p>Nossos Serviços</p>
+                                                                    </li>
+                                                                    <li><b><a href="s1.html"><i
+                                                                                    class="fa fa-angle-right"></i>
+                                                                                Consultoria Estratégica </a></b></li>
+                                                                    <li><b><a href="s2.html"><i
+                                                                                    class="fa fa-angle-right"></i>
+                                                                                Arquitetura de Aplicações</a></b></li>
+                                                                    <li><b><a href="s3.html"><i
+                                                                                    class="fa fa-angle-right"></i>
+                                                                                Outsourcing</a></b></li>
+                                                                    <li><b><a href="s4.html"><i
+                                                                                    class="fa fa-angle-right"></i>
+                                                                                Desenvolvimento de Aplicações</a></b></li>
+                                                                    <li><b><a href="s5.html"><i
+                                                                                    class="fa fa-angle-right"></i>
+                                                                                Treinamentos</a></b></li>
+                                                                    <li><b><a href="s6.html"><i
+                                                                            class="fa fa-angle-right"></i>
+                                                                            Detecção de Fraudes</a></b></li>
+                                                                         </ul>
+
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown"><a href="cases.html" class="dropdown-toggle"><i
+                                                        class="fa fa-star"></i> Cases</a></li>
+                                            <!-- <li class="dropdown"> <a href="#" target="_blank"><i class="fa fa-rss"></i> Blog</a></li>   -->
+                                            <li class="dropdown"> <a href="contato.html"><i class="fa fa-phone"></i>
+                                                    Contato</a>
+                                            <li class="dropdown"> <a href="trabalheaqui.html"><i
+                                                        class="fa fa-user"></i>Junte-se a nós</a></li>
+                                            </li>
+                                        </ul>
+                                        <!-- End UL ====================== -->
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end menu -->
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="clearfix"></div>
+        <!-- Slider ======================================= -->
+
+        <div class="container_full">
+            <div class="slidershadow">&nbsp;</div>
+            <div class="mstslider">
+                <div class="master-slider ms-skin-default" id="masterslider">
+
+                    <!-- slide -->
+                    <div class="ms-slide slide-1" data-delay="9">
+
+                        <!-- slide background -->
+                        <img src="img-newdev/banner1.png" alt="Aplicativo do Portal" />
+
+                        <h1 class="ms-layer stext1" style="left: 120px; top: 132px;" data-type="text"
+                            data-duration="900" data-delay="100" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            <strong>Arquitetura de Aplicações.</strong>
+                        </h1>
+
+                        <h4 class="ms-layer stext2" style="left: 120px; top: 245px;" data-type="text"
+                            data-duration="900" data-delay="500" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            Qualidade dos processos envolvidos no desenvolvimento e manutenção dos sistemas.
+                        </h4>
+
+                        <div class="ms-layer" style="left: 120px; top: 365px;" data-type="text" data-delay="1200"
+                            data-ease="easeOutExpo" data-duration="900" data-effect="scale(1.5,1.6)">
+
+                            <a class="sbutton1" style="margin-right: 20px;" href="s2.html" data-mode="1">Conheça
+                                agora!</a>
+
+                        </div>
+                    </div>
+                    <!-- end of slide -->
+
+                    <!-- slide -->
+                    <div class="ms-slide slide-1" data-delay="9">
+
+                        <!-- slide background -->
+                        <img src="img-newdev/banner2.png" alt="Aplicativo do Portal" />
+
+                        <h1 class="ms-layer stext1" style="left: 120px; top: 132px;" data-type="text"
+                            data-duration="900" data-delay="100" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            <strong>Outsourcing</strong>
+                        </h1>
+
+                        <h4 class="ms-layer stext2" style="left: 120px; top: 245px;" data-type="text"
+                            data-duration="900" data-delay="500" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            Terceirização profissional e projetos.
+                        </h4>
+
+                        <div class="ms-layer" style="left: 120px; top: 365px;" data-type="text" data-delay="1200"
+                            data-ease="easeOutExpo" data-duration="900" data-effect="scale(1.5,1.6)">
+
+                            <a class="sbutton1" style="margin-right: 20px;" href="s3.html" data-mode="1">Conheça
+                                agora!</a>
+
+                        </div>
+                    </div>
+                    <!-- end of slide -->
+
+
+                    <!-- slide -->
+                    <div class="ms-slide slide-1" data-delay="9">
+
+                        <!-- slide background -->
+                        <img src="img-newdev/banner3.png" alt="Aplicativo do Portal" />
+
+                        <h1 class="ms-layer stext1" style="left: 120px; top: 132px;" data-type="text"
+                            data-duration="900" data-delay="100" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            <strong>Banco de Dados</strong>
+                        </h1>
+
+                        <h4 class="ms-layer stext2" style="left: 120px; top: 245px;" data-type="text"
+                            data-duration="900" data-delay="500" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            Monitoramento, Sustentação, Suporte e Migração de Banco de Dados
+                        </h4>
+
+                        <div class="ms-layer" style="left: 120px; top: 365px;" data-type="text" data-delay="1200"
+                            data-ease="easeOutExpo" data-duration="900" data-effect="scale(1.5,1.6)">
+
+                            <a class="sbutton1" style="margin-right: 20px;" href="s4.html" data-mode="1">Conheça
+                                agora!</a>
+                        </div>
+                    </div>
+                    <!-- end of slide -->
+
+                    <!-- slide -->
+                    <div class="ms-slide slide-1" data-delay="9">
+
+                        <!-- slide background -->
+                        <img src="img-newdev/banner4.png" alt="Aplicativo do Portal" />
+
+
+                        <h1 class="ms-layer stext1" style="left: 120px; top: 132px;" data-type="text"
+                            data-duration="900" data-delay="100" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            <strong>Projetos On-Demand</strong>
+                        </h1>
+
+                        <h4 class="ms-layer stext2" style="left: 120px; top: 245px;" data-type="text"
+                            data-duration="900" data-delay="500" data-ease="easeOutExpo" data-effect="bottom(40)">
+                            Projetos sob medida para a realidade do seu projeto.
+                        </h4>
+
+                        <div class="ms-layer" style="left: 120px; top: 365px;" data-type="text" data-delay="1200"
+                            data-ease="easeOutExpo" data-duration="900" data-effect="scale(1.5,1.6)">
+
+                            <a class="sbutton1" style="margin-right: 20px;" href="s1.html" data-mode="1">Conheça
+                                agora!</a>
+
+                        </div>
+                    </div>
+                    <!-- end of slide -->
+
+                </div>
+            </div>
+
+        </div><!-- end slider -->
+
+
+        <div class="clearfix"></div>
+
+        <div class="feature_section1">
+            <div class="left" style="background-color: white; height: 30px;">
+
+            </div>
+            <div class="container" style="padding: 30px 0 63px 0;">
+
+                <h2 style="color: #2b2b67;">
+                    Soluções <strong>incríveis</strong> para o seu negócio
+                    <p>A <strong>IntCon</strong> desenvolve as melhores ferramentas utilizando as últimas
+                        tecnologias do mercado.</p>
+                </h2>
+                <style>
+                    @media (max-width: 480px){
+                        .tamanhoP {
+                            height: 300px;
+                            width: 100%;
+                            margin-right: 0%;
+                        }   
+                    }
+                    @media (min-width: 480px){
+                    .tamanhoP {
+                        height: 300px;
+                        width: 20%;
+                        /*width: 200px;*/
+                        /*left: 80px;*/
+                        margin-right: 0%;    
+                    }
+                }
+                </style>
+
+                <div class="margin_top3"></div>
+                <a href="s1.html">
+                    <div class="one_fourth animate center tamanhoP" data-anim-type="fadeIn" data-anim-delay="100">
+
+                        <div class="img_box"><img src="img-newdev/8.png"></div>
+                        <h5 class="bolder">Consultoria Estratégica</h5>
+                        <p>A melhor solução para o seu negócio!</p>
+                    </div>
+                </a>
+
+                <a href="s2.html">
+                    <div class="one_fourth animate center tamanhoP" data-anim-type="fadeIn" data-anim-delay="100">
+
+                        <div class="img_box"><img src="img-newdev/2.png"></div>
+                        <h5 class="bolder">Arquitetura de Aplicações</h5>
+                        <p>Qualidade no processo e manutenção</p>
+                    </div>
+                </a>
+
+                <a href="s3.html">
+                    <div class="one_fourth animate tamanhoP" data-anim-type="fadeIn" data-anim-delay="400">
+
+                        <div class="img_box"><img src="img-newdev/3.png"></div>
+                        <h5 class="bolder">Outsourcing <p> <br></p>
+                        </h5>
+                        <p>Terceirização profissional e projetos</p>
+                    </div>
+                </a>
+
+                <a href="s4.html">
+                    <div class="one_fourth animate tamanhoP" data-anim-type="fadeIn" data-anim-delay="300">
+
+                        <div class="img_box"><img src="img-newdev/4.png"></div>
+                        <h5 class="bolder">Desenvolvimento de Aplicações</h5>
+                        <p>Atualização ágil e independente</p>
+                    </div>
+                </a>
+
+                <a href="s5.html">
+                    <div class="one_fourth animate tamanhoP" data-anim-type="fadeIn" data-anim-delay="400">
+
+                        <div class="img_box"><img src="img-newdev/5.png"></div>
+                        <h5 class="bolder">Treinamentos <p> <br></p>
+                        </h5>
+                        <p>IBM<br> Microsoft <br> Oracle</p>
+                    </div>
+                </a>
+
+
+
+
+            </div>
+        </div><!-- end features section1 -->
+
+        <div class="clearfix"></div>
+
+        <div class="feature_section30" style="padding: 50px 0px 0px 0px;">
+            <div class="container" data-anim-type="fadeInUp">
+
+
+                <div class="one_half">
+                    <h1 style="color: #2b2b67;">
+                        Nossas <strong>Soluções</strong><br>
+                        na palma da sua <strong>Mão.</strong><br>
+
+                        <b style="color: #2b2b67;">Seja qual for o seu negócio, temos uma solução na sua medida.<br>As
+                            melhores ferramentas, reunidas em um só lugar.</b>
+                    </h1>
+                    <br />
+
+
+                    <h3 class=" margin_top3 disappear"><a href="contato.html" class="bt-outlineOrange">Fale agora com um
+                            consultor</a></h3>
+
+                    <img src="img-langdev/IntConMobileVerdeFIXED.png" alt="app-intera" style="  margin: 120px 0 0 0;">
+                </div>
+
+                <div class="one_half last alignleft">
+                    <img src="img-langdev/apenasCelulares.png" alt="devices-home" style="width: 100%; ">
+                </div>
+
+
+
+                <div class="clearfix"></div>
+
+            </div>
+        </div><!-- end features section3 -->
+
+        <div class="clearfix"></div>
+
+        <div class="parallax_sec2 parabg-0">
+            <div class="container">
+
+                <h2 class="white2">
+                    Qualidade no <strong>Atendimento</strong>
+                    <b class="white">Na <strong>IntCon</strong> você conversa com especialistas que tem a
+                        solução correta sempre que precisar.</b>
+
+                    <h3 class="white margin_top3 appear"><strong class="white2"> (11)2386-9707</strong><br>
+                        <strong class="white2" style="font-size: 16px;">
+                            <a href="mailto:contato@intcon.com.br">contato@intcon.com.br</a>
+                        </strong><br><a href="contato.html" class="bt-outline">Fale Conosco</a></h3>
+                </h2>
+
+
+                <h3 class="white margin_top3 disappear"><strong class="white2"> (11)2386-9707</strong> &nbsp;
+                    &nbsp; | &nbsp; &nbsp; <strong class="white2">
+                        <a href="mailto:contato@intcon.com.br">contato@intcon.com.br</a>
+                    </strong>&nbsp; &nbsp; |&nbsp; &nbsp; <a href="contato.html" class="bt-outline">Fale Conosco</a>
+                </h3>
+
+                <div class="clearfix margin_top3"></div>
+
+                <div class="support-team">
+                    <img src="img-newdev/pessoas.png">
+                </div>
+
+            </div>
+
+
+            <div class="stripe"></div>
+
+        </div><!-- end parallax sec 2 -->
+
+
+
+        <div class="clearfix"></div>
+
+        <!--
+<div class="feature_section6" style=" background-image: url(img-langdev/parallax-bg8.jpg); background-repeat: no-repeat; ">
+-->
+
+
+
+        <div class="feature_section6" style=" background-color: #f5f6f8">
+            <div class="container">
+
+                <h2 class="fontBlue">
+                    Por que escolher a <strong>IntCon?</strong>
+
+                    <b class="fontBlue">Escolhemos 8 motivos para você ter a <strong>IntCon</strong> como
+                        administradora das soluções para seu produto ou negócio</b>
+                </h2>
+
+                <div class="one_fourth animate" data-anim-type="fadeInUp">
+
+                    <img src="img-newdev/icones2/7.png">
+
+                    <h5 class="fontBlue">Soluções Completas</h5>
+
+                    <p class="fontSilver">Seja qual for o seu negócio, temos uma solução na sua medida. As melhores
+                        ferramentas, reunidas em um só lugar.</p>
+                </div>
+
+                <div class="one_fourth animate" data-anim-type="fadeInUp">
+
+                    <img src="img-newdev/icones2/8.png">
+
+                    <h5 class="fontBlue">Estamos prontos para você</h5>
+
+                    <p class="fontSilver">Nossos produtos são projetados para suportar uma diversidade de plataformas no
+                        mercado. </p>
+                </div>
+
+                <div class="one_fourth animate" data-anim-type="fadeInUp">
+                    <img src="img-newdev/icones2/1.png">
+                    <h5 class="fontBlue">Atendimento inteligente</h5>
+                    <p class="fontSilver">Nós temos o compromisso de oferecer o atendimento mais honesto e eficiente
+                        para você.</p>
+                </div>
+
+                <div class="one_fourth last animate" data-anim-type="fadeInUp">
+                    <img src="img-newdev/icones2/2.png">
+                    <h5 class="fontBlue">Serviço personalizado</h5>
+                    <p class="fontSilver">Cada negócio tem o seu diferencial, por isso oferecemos soluções de acordo com
+                        aquilo que você precisa.</p>
+                </div>
+
+                <div class="clearfix margin_top6"></div>
+
+                <div class="one_fourth animate" data-anim-type="fadeInUp">
+
+                    <img src="img-newdev/icones2/3.png">
+
+                    <h5 class="fontBlue">Controle total</h5>
+
+                    <p class="fontSilver">Nossos sistemas foram pensados para que seu negócio alavanque em qualquer
+                        plataforma, seja no computador, tablet ou no smartphone.</p>
+
+                </div>
+
+                <div class="one_fourth animate" data-anim-type="fadeInUp">
+
+                    <img src="img-newdev/icones2/4.png">
+
+                    <h5 class="fontBlue">Dinâmica</h5>
+
+                    <p class="fontSilver">Com o rapidez no avanço da tecnologia, se faz necessário uma dinâmica na
+                        atualização.Faremos isso por você!</p>
+
+                </div>
+
+                <div class="one_fourth animate" data-anim-type="fadeInUp">
+
+                    <img src="img-newdev/icones2/5.png">
+
+                    <h5 class="fontBlue">Estamos do seu lado</h5>
+
+                    <p class="fontSilver">Nossa missão é ajudar você, sua empresa ou produto com as melhores soluções do
+                        mercado.</p>
+
+                </div>
+
+                <div class="one_fourth last animate" data-anim-type="fadeInUp">
+
+                    <img src="img-newdev/icones2/6.png">
+
+                    <h5 class="fontBlue">Facilidade</h5>
+
+                    <p class="fontSilver">Quer desenvolver uma aplicação agora mesmo? Ótimo! Nossos consultores estão
+                        prontos para auxiliar você em todas as etapas.</p>
+
+                </div>
+
+            </div>
+        </div><!-- end features section6 -->
+
+        <div class="clearfix"></div>
+
+        <!-- footer
+<div class="footer_graph"></div>
+-->
+
+        <div class="clearfix"></div>
+
+
+
+        <div class="feature_section2">
+            <div class="container bt-sign-footer">
+
+                <div class="rw-wrapper">
+                    <div class="rw-sentence">
+                        Venha para a <strong>IntCon</strong>
+                        <div class="rw-words rw-words-1">
+                            <span>Soluções completas</span>
+                            <span>Atendimento Inteligente</span>
+                            <span>Cresça seu negócio</span>
+                            <span>Economize dinheiro</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <a class="typeform-share sbutton1 animate" data-anim-type="fadeInRight" href="contato.html"
+                    data-mode="1" target="_blank">Fale Conosco</a>
+
+
+            </div>
+        </div><!-- end features section2 -->
+
+        <div class="clearfix"></div>
+
+
+
+
+
+        <div class="footer1">
+            <div class="container">
+                <div class="clearfix divider_dashed1">
+                    <ul style="line-height: 20px;">
+                        <li class="animate zoomIn footer-iconsocial " data-anim-type="zoomIn"
+                            style="padding-top: 10px;">
+                            <a href="https://www.facebook.com/Intera-Consultoria-1702439963132223" target="_blank"
+                                style=" padding-right: 10px; "><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/intcon/" target="_blank"
+                                style=" padding-right: 10px;"><i class="fa fa-instagram"></i></a>
+                            <!-- <a href="#" target="_blank" style=" padding-right: 10px;"><i class="fa fa-twitter"></i></a> -->
+                            <a href="https://www.linkedin.com/company/intera-consultoria/" target="_blank"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="one_half animate" data-anim-type="fadeInUp">
+                    <ul class="faddress">
+                        <li><img src="img-langdev/IntCon_pngFIXED_allWHITE_ScaledDown.png" alt="" style="margin-top:-29px"></li>
+
+                        <!--li style="color: #a9a9b3; margin: 10px 0 0 0; ">
+                <strong>Escritório Comercial </strong>
+                <br>
+                <span style="font-size: 12px;"> Av. Pacaembu, 1976<br>Pacaembu, São Paulo - SP</span><br />
+            </li-->
+                        <li style="padding-bottom:0;">
+                            <i class="fa fa-phone" style="color:#FFFFFF;"></i>&nbsp;
+                            <strong style="color:#FFFFFF;"> (11)2386-9707</strong>
+                        </li>
+
+                        <!--li style="color: #a9a9b3; margin: 10px 0 0 0; ">
+                <span style="font-size: 12px;"> Av. Engenheiro Luís Carlos Berrini, 1748 <br />5° andar Conj 502 e 504<br>Itaim Bibi, São Paulo - SP</span><br />
+            </li>
+            <li style="padding-bottom:0;">
+                <i class="fa fa-phone" style="color:#FFFFFF;"></i>&nbsp; 
+                <strong style="color:#FFFFFF;"> (11) 2386-9707 </strong>
+            </li-->
+                        <li><a href="mailto:contato@intcon.com.br"><i class="fa fa-envelope"></i>
+                                contato@intcon.com.br </a></li>
+                        <br>
+
+                        <li style="color: #a9a9b3; margin: -10px 0 0 0; "><strong>Arquitetura de Aplicaçõess
+                            </strong><br><span style="font-size: 12px;"> Av. Engenheiro Luís Carlos Berrini, 1748 – 5º
+                                Andar – Conjunto: 502-504 – CEP : 04551-010<br>Cidade Monções,  São Paulo - SP</span></li>
+                    </ul>
+                </div><!-- end address -->
+
+                <div class="one_half last animate" data-anim-type="fadeInUp">
+                    <div class="siteinfo">
+
+                        <h4 class="lmb" style="color: #a9a9b3;">Sobre a IntCon</h4>
+
+                        <p style="color: #a9a9b3; margin: 10px 0 0 0; ">No início nosso foco principal era o
+                            desenvolvimento de sistemas em linguagens de 4ª geração e treinamento de produtos. Nesses
+                            anos, atendendo clientes especiais e passando pelos mais adversos ambientes e tendências de
+                            mercado desenvolvemos o jeito Intera de atender. Mais do que uma consultoria dotada das mais
+                            modernas ferramentas tecnológicas, mais do que um time composto por profissionais que aliam
+                            conhecimento técnico e longa experiência prática, nós da Intera oferecemos um estilo de
+                            serviço focado no relacionamento com o cliente.</p>
+                        <br />
+                        <a href="sobre.html" style="color: #31b457; ">Conheça mais a IntCon <i
+                                class="fa fa-long-arrow-right"></i></a>
+
+                    </div>
+                </div><!-- end site info -->
+
+
+
+
+            </div>
+        </div><!-- end footer -->
+
+
+
+
+        <div class="clearfix"></div>
+
+        <div class="copyright_info" style="background-color: white;">
+            <div class="container">
+
+                <div class="clearfix">
+
+                    <div class="selos">
+
+                        <div class="center">
+                            Copyright 2021 @ IntCon - Todos os direitos reservados
+                        </div>
+
+                    </div>
+
+                </div>
+            </div><!-- end copyright info -->
+
+
+            <a href="#" class="scrollup"></a><!-- end scroll to top of the page-->
+
+        </div>
+
+        <!-- ######### JS FILES ######### -->
+        <!-- get jQuery from the google apis -->
+        <script type="text/javascript" src="js/universal/jquery.js"></script>
+
+        <!-- style switcher -->
+        <script src="js/style-switcher/jquery-1.js"></script>
+        <script src="js/style-switcher/styleselector.js"></script>
+
+        <!-- animations -->
+        <script src="js/animations/js/animations.min.js" type="text/javascript"></script>
+
+        <!-- slide panel -->
+        <script type="text/javascript" src="js/slidepanel/slidepanel.js"></script>
+
+        <!-- Master Slider -->
+        <script src="js/masterslider/jquery.easing.min.js"></script>
+        <script src="js/masterslider/masterslider.min.js"></script>
+        <script type="text/javascript">
+            (function ($) {
+                "use strict";
+
+                var slider = new MasterSlider();
+                slider.setup('masterslider', {
+                    width: 1400, // slider standard width
+                    height: 580, // slider standard height
+                    space: 0,
+                    speed: 45,
+                    fullwidth: true,
+                    loop: true,
+                    preload: 0,
+                    autoplay: true,
+                    view: "basic"
+                });
+                // adds Arrows navigation control to the slider.
+                slider.control('arrows');
+                slider.control('bullets');
+
+                // add scroll parallax effect
+                MSScrollParallax.setup(slider, 50, 80, true);
+
+            })(jQuery);
+        </script>
+
+        <!-- mega menu -->
+        <script src="js/mainmenu/bootstrap.min.js"></script>
+        <script src="js/mainmenu/customeUI.js"></script>
+
+        <!-- jquery jcarousel -->
+        <script type="text/javascript" src="js/carousel/jquery.jcarousel.min.js"></script>
+
+        <!-- scroll up -->
+        <script src="js/scrolltotop/totop.js" type="text/javascript"></script>
+
+        <!-- tabs -->
+        <script src="js/tabs/assets/js/responsive-tabs.min.js" type="text/javascript"></script>
+
+        <!-- jquery jcarousel 
+<script type="text/javascript">
+(function($) {
+ "use strict";
+
+    jQuery(document).ready(function() {
+            jQuery('#mycarouselthree').jcarousel();
+    });
+
+})(jQuery);
+</script>-->
+
+        <script type="text/javascript" src="js/jquery.stellar.js"></script>
+
+        <!-- accordion -->
+        <script type="text/javascript" src="js/accordion/custom.js"></script>
+
+        <!-- sticky menu -->
+        <script type="text/javascript" src="js/mainmenu/sticky.js"></script>
+        <script type="text/javascript" src="js/mainmenu/modernizr.custom.75180.js"></script>
+
+        <!-- cubeportfolio -->
+        <script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
+        <script type="text/javascript" src="js/cubeportfolio/main.js"></script>
+        <script type="text/javascript" src="js/cubeportfolio/main5.js"></script>
+        <script type="text/javascript" src="js/cubeportfolio/main6.js"></script>
+
+        <!-- carousel -->
+        <script defer src="js/carousel/jquery.flexslider.js"></script>
+        <script defer src="js/carousel/custom.js"></script>
+
+        <!-- lightbox -->
+        <script type="text/javascript" src="js/lightbox/jquery.fancybox.js"></script>
+        <script type="text/javascript" src="js/lightbox/custom.js"></script>
+
+        <!-- 
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0025/3806.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+-->
+
+</body>
+
+</html>
+<!-- Localized -->

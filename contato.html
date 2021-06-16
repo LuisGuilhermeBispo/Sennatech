@@ -1,0 +1,398 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <title>IntCon</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="keywords" content="intera, consultoria, aplicativos, softwares, banco de dados" />
+  <meta name="description" content="A IntCon cria soluções inteligentes para seu negócio">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="http://www.intcon.com.br">
+  <meta property="og:title" content="IntCon - Idéia para seu negócio">
+  <meta property="og:site_name" content="IntCon">
+  <meta property="og:description" content="A IntCon cria soluções inteligentes para seu negócio">
+  <meta property="og:image" content="http://www.intcon.com.br/img-langdev/social.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="600">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img-newdev/Icon.ico">
+
+  <!-- this styles only adds some repairs on idevices  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- ######### JS FILES ######### -->
+  <!-- get jQuery from the google apis -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Form -->
+  <link rel="stylesheet" href="form-1.css" >
+  <script src="contato.js"></script>
+
+  <!-- ######### CSS STYLES ######### -->
+  <link rel="stylesheet" href="css/reset.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+  <!-- responsive devices styles -->
+  <link rel="stylesheet" media="screen" href="css/responsive-leyouts.css" type="text/css" />
+
+  <!-- animations -->
+  <link href="js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/colors/orange.css" />
+
+  <!-- mega menu -->
+  <link href="js/mainmenu/sticky.css" rel="stylesheet">
+  <link href="js/mainmenu/bootstrap.min.css" rel="stylesheet">
+  <link href="js/mainmenu/demo.css" rel="stylesheet">
+  <link href="js/mainmenu/menu.css" rel="stylesheet">
+
+  <!-- tabs -->
+  <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs.css">
+  <link rel="stylesheet" type="text/css" href="js/tabs/assets/css/responsive-tabs2.css">
+
+  <!-- carousel -->
+  <link rel="stylesheet" href="js/carousel/flexslider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="js/carousel/skin.css" />
+
+  <!-- accordion -->
+  <link rel="stylesheet" href="js/accordion/accordion.css" type="text/css" media="all">
+
+  <!-- Lightbox -->
+  <link rel="stylesheet" type="text/css" href="js/lightbox/jquery.fancybox.css" media="screen" />
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'CODIGO-INTERA-AQUI'], ['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <style>
+  #dialog {
+    margin: 30px auto;
+    width: 95%;
+    padding: 30px;
+    background-color: #fffb8a;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-74760375-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-74760375-1');
+</script>
+
+</head>
+<body>
+  <div class="site_wrapper">
+    <header id="header" style="height: 84px;" class> 
+      <div id="trueHeader">
+        <div class="wrapper">
+          <div class="container"> 
+
+            <!-- Logo -->
+            <div class="logo"><a href="index.html" id="logo"></a></div>
+
+            <!-- Menu -->
+            <div class="menu_main">
+              <div class="navbar yamm navbar-default">
+                <div class="container">
+                  <div class="navbar-header">
+                    <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1"  > <span>Menu</span>
+                      <button type="button" > <i class="fa fa-bars"></i></button>
+                    </div>
+                  </div>
+                  <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right"> 
+                    <!-- Start UL ================ -->
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html" ><i class="fa fa-home"></i> Início</a></li>
+                      <li><a href="sobre.html"><i class="fa fa-users"></i> Quem Somos</a></li>
+                      <li class="dropdown yamm-fw"> <a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-cogs"></i> Serviços</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <div class="yamm-content">
+                              <div class="row">
+                              <ul class="col-sm-6 col-md-6 list-unstyled">
+                                <li>
+                                  <p>Nossos Serviços</p>
+                                </li>
+                                <li><b><a href="s1.html"><i class="fa fa-angle-right"></i> Consultoria Estratégica </a></b></li>
+                                <li><b><a href="s2.html"><i class="fa fa-angle-right"></i> Arquitetura de Aplicações</a></b></li>
+                                <li><b><a href="s3.html"><i class="fa fa-angle-right"></i> Outsourcing</a></b></li>
+                                <li><b><a href="s4.html"><i class="fa fa-angle-right"></i> Desenvolvimento de Aplicações</a></b></li>
+                                <li><b><a href="s5.html"><i class="fa fa-angle-right"></i> Treinamentos</a></b></li>
+                                <li><b><a href="s6.html"><i class="fa fa-angle-right"></i> Detecção de Fraudes</a></b></li>
+                               </ul>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"> <a href="cases.html" class="dropdown-toggle"><i class="fa fa-star"></i> Cases</a></li>
+                    <!-- <li class="dropdown"> <a href="#" target="_blank"><i class="fa fa-rss"></i> Blog</a></li>   -->
+                    <li class="dropdown" > <a href="contato.html" class="active"><i class="fa fa-phone"></i> Contato</a>
+                      <li class="dropdown"> <a href="trabalheaqui.html"><i class="fa fa-user"></i>Junte-se a nós</a> </li>
+                    </ul>
+                    <!-- End UL ====================== --> 
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end menu --> 
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="clearfix"></div>
+    <div class="container-full img-about" >
+      <div class="slidershadow">&nbsp;</div>
+      <img src="img-langdev/top_header-4.jpg" alt="" class="rimg"> </div>
+
+      <!-- ContFull Form Start -->
+      <div class="page_title2">
+        <div class="container">
+          <div class="title">
+            <h1>Contato</h1>
+          </div>
+          <div class="pagenation">&nbsp; <a href="index.html">Início</a> <i>/</i> Fale Conosco</div>
+        </div>
+      </div>
+      <!-- end page title -->
+      <div class="clearfix margin_top3"></div>
+      <div class="container" > 
+
+
+       <div class="container">
+        <div class="one_half" style="margin: 2px 10px 10px 0; ">
+
+          <h4 class="bolder">Entre em contato pelo formulário</h4>
+
+
+          <div class="container" style=" background-color: #FFFF; padding: 20px;">
+            <form class="montform" id="reused_form" enctype="multipart/form-data" >
+              <div class="form-group">
+                <label for="fname">Nome (*)</label>
+                <input name="nome" type="text" class="feedback-input form-control col-6" required placeholder="Seu Nome..." id="nome" style="height: 50px;"  />
+              </div>
+              <div class="form-group">
+                <label for="fname">E-Mail (*)</label>
+                <input name="email" type="email" required class="feedback-input form-control" id="email" placeholder="Email" style="height: 50px;"/>
+              </div>
+              <div class="form-group">
+                <label for="fname">Telefone (*)</label>
+                <input type="text" id="telefone" name="telefone" required placeholder="Seu Telefone..." class="feedback-input form-control" style="height: 50px;">
+              </div>
+              <div class="form-group">
+                <label for="fname">Assunto (*)</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto..." class="feedback-input form-control" style="height: 50px;">
+              </div>
+              <div class="form-group">
+                <label for="fname">Mensagem (*)</label>
+                <textarea name="mensagem" class="feedback-input form-control" id="mensagem" placeholder="Escreva sua mensagem..." rows="4" cols="50"></textarea>
+              </div>
+              <button type="submit" class="btn btn-default" style="background-color: #2194d3; color: #FFF; padding: 10px; font-weight: bold;" >Enviar Formulário</button>
+              <div class="ease"></div>
+            </form>
+            <div id="error_message" style="width:100%; height:100%; display:none; ">
+              <h4>Opss!!</h4>
+            Aconteceu algum erro. Por favor tente novamente! </div>
+            <div id="success_message" style="width:100%; height:100%; display:none; ">
+              <h2>Tudo certo!<br>
+                <br>
+              Sua mensagem foi enviado com sucesso para contato@intcon.com.br</h2>
+            </div>
+          </div>
+        </div>
+        <!-- end section --> 
+
+      </div>
+
+
+    </div>
+    <!-- ContFull Form End --> 
+
+
+
+    <!-- ContFull Adress Start -->
+    <div class="container-full" style="background-color: #f5f6f8;">
+      <div class="container" > 
+
+
+       <div class="content_fullwidth lessmar">
+        <div class="one_half"> 
+          <!-- Start Form IntCon     --> 
+        </div>
+        <div class="container" >
+
+          <div class="address_info" style="height: 350px; background-color: #FFF;"  >
+            <div class="one_half">
+              <h4 style="margin-bottom:0;"> <strong>Fale com a IntCon</strong> </h4>
+              <br>
+              <ul>
+                <li> <strong>Arquitetura de Aplicações </strong> <br />
+                  Av. Engenheiro Luís Carlos Berrini, 1748 – 5° Andar – Conjunto: 502-504 <br /> CEP : 04551-010 Cidade Monções,   São Paulo - SP
+                  <p class="phone-contact"> <i class="fa fa-phone"></i> <a href="tel: 2691-4003"> (11) 2691-4003</a> </p>
+          <p class="phone-contact"><i class="fa fa-whatsapp fa-lg" style="color: green; font-weight: bold;" aria-hidden="true"></i> 
+             <a href="https://wa.me/5511999023402?text=Estou%20interessado%20em%20Desenvolvimento%20Mobile%20" target="_blank">Ou via WhatsApp</a></p>
+                  <!--br />
+                  Av. Engenheiro Luís Carlos Berrini, 1748 5° andar Conj 502 e 504<br>
+                  Itaim Bibi, São Paulo - SP
+                  <p class="phone-contact"> <i class="fa fa-phone"></i> <a href="tel: 2691-4003">  (11) 2386-9707</a> </p-->
+                  <br>
+                  <p>Segunda a sexta, das 08h às 18h.</p>
+                  <li>
+                    <a href="mailto:contato@intcon.com.br">
+                     <i class="fa fa-envelope"></i> contato@intcon.com.br 
+                   </a>
+                 </li>
+               </ul>
+            </div>
+            <div class="one_half last">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.7909766080106!2d-46.697461130246936!3d-23.61182818564588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce511919a6a28f%3A0x6bc209e9b85a2759!2sIntera%20Consultoria!5e0!3m2!1spt-BR!2sbr!4v1622138945739!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- ContFull Adress End --> 
+
+<!-- footer
+<div class="footer_graph"></div>
+-->
+
+<div class="clearfix"></div>
+<div class="feature_section2">
+  <div class="container bt-sign-footer">
+    <div class="rw-wrapper">
+      <div class="rw-sentence"> Venha para a <strong>IntCon</strong>
+        <div class="rw-words rw-words-1"> <span>Soluções completas</span> <span>Atendimento Inteligente</span> <span>Cresça seu negócio</span> <span>Economize dinheiro</span> </div>
+      </div>
+    </div>
+    <a class="typeform-share sbutton1 animate" data-anim-type="fadeInRight" href="contato.php" data-mode="1" target="_blank">Fale Conosco</a> </div>
+  </div>
+  <!-- end features section2 -->
+
+  <div class="clearfix"></div>
+  <div class="footer1">
+    <div class="container">
+      <div class="clearfix divider_dashed1">
+
+        <ul style="line-height: 20px;">
+          <li class="animate zoomIn footer-iconsocial " data-anim-type="zoomIn" style="padding-top: 10px;">
+            <a href="https://www.facebook.com/Intera-Consultoria-1702439963132223" target="_blank" style=" padding-right: 10px; "><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/intcon/" target="_blank" style=" padding-right: 10px;"><i class="fa fa-instagram"></i></a>
+            <!-- <a href="#" target="_blank" style=" padding-right: 10px;"><i class="fa fa-twitter"></i></a> -->
+            <a href="https://www.linkedin.com/company/intera-consultoria/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+       <div class="one_half animate" data-anim-type="fadeInUp">
+        <ul class="faddress">
+            <li><img src="img-langdev/IntCon_pngFIXED_allWHITE_ScaledDown.png" alt="" style="margin-top:-29px"></li>
+
+            <!--li style="color: #a9a9b3; margin: 10px 0 0 0; ">
+                <strong>Escritório Comercial </strong>
+                <br>
+                <span style="font-size: 12px;"> Av. Pacaembu, 1976<br>Pacaembu, São Paulo - SP</span><br />
+            </li-->
+            <li style="padding-bottom:0;">
+                <i class="fa fa-phone" style="color:#FFFFFF;"></i>&nbsp; 
+                <strong style="color:#FFFFFF;"> (11)2386-9707</strong>
+            </li>
+
+            <!--li style="color: #a9a9b3; margin: 10px 0 0 0; ">
+                <span style="font-size: 12px;"> Av. Engenheiro Luís Carlos Berrini, 1748 <br />5° andar Conj 502 e 504<br>Itaim Bibi, São Paulo - SP</span><br />
+            </li>
+            <li style="padding-bottom:0;">
+                <i class="fa fa-phone" style="color:#FFFFFF;"></i>&nbsp; 
+                <strong style="color:#FFFFFF;"> (11) 2386-9707 </strong>
+            </li-->
+            <li><a href="mailto:contato@intcon.com.br"><i class="fa fa-envelope"></i> contato@intcon.com.br </a></li>
+            <br>
+            
+            <li style="color: #a9a9b3; margin: -10px 0 0 0; "><strong>Endereço: </strong><br><span style="font-size: 12px;"> Av. Engenheiro Luís Carlos Berrini, 1748 –  5° Andar – Conjunto: 502-504 – CEP : 04551-010<br>Cidade Monções,  São Paulo - SP</span></li>            
+        </ul>
+    </div><!-- end address -->
+
+          <div class="one_half last animate" data-anim-type="fadeInUp">
+            <div class="siteinfo">
+              <h4 class="lmb" style="color: #a9a9b3;" >Sobre a IntCon</h4>
+              <p style="color: #a9a9b3; margin: 10px 0 0 0; ">No início nosso foco principal era o desenvolvimento de sistemas em linguagens de 4ª geração e treinamento de produtos. Nesses anos, atendendo clientes especiais e passando pelos mais adversos ambientes e tendências de mercado desenvolvemos o jeito Intera de atender. Mais do que uma consultoria dotada das mais modernas ferramentas tecnológicas, mais do que um time composto por profissionais que aliam conhecimento técnico e longa experiência prática, nós da Intera oferecemos um estilo de serviço focado no relacionamento com o cliente.</p>
+              <br />
+              <a href="sobre.html" style="color: #31b457; ">Conheça mais a IntCon <i class="fa fa-long-arrow-right"></i></a> </div>
+            </div>
+            <!-- end site info -->
+
+          </div>
+        </div>
+        <!-- end footer -->
+
+        <div class="clearfix"></div>
+        <div class="copyright_info" style="background-color: white;">
+          <div class="container">
+            <div class="clearfix">
+              <div class="selos">
+                <div class="center"> Copyright 2021 @ IntCon - Todos os direitos reservados </div>
+              </div>
+            </div>
+          </div>
+          <!-- end copyright info -->   
+          <a href="#" class="scrollup"></a><!-- end scroll to top of the page-->   
+        </div>
+
+        <!-- mascara -->
+        <script src="js/mascara.js" type="text/javascript"></script>
+        <script src="js/jquery.mask.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery.mask.min.js"></script>
+        <!-- animations --> 
+        <script src="js/animations/js/animations.min.js" type="text/javascript"></script> 
+        <!-- mega menu --> 
+        <script src="js/mainmenu/bootstrap.min.js"></script> 
+        <script src="js/mainmenu/customeUI.js"></script> 
+        <!-- scroll up --> 
+        <script src="js/scrolltotop/totop.js" type="text/javascript"></script> 
+        <!-- tabs --> 
+        <script src="js/tabs/assets/js/responsive-tabs.min.js" type="text/javascript"></script> 
+        <!-- accordion --> 
+        <script type="text/javascript" src="js/accordion/custom.js"></script> 
+        <!-- sticky menu --> 
+        <script type="text/javascript" src="js/mainmenu/sticky.js"></script> 
+        <script type="text/javascript" src="js/mainmenu/modernizr.custom.75180.js"></script> 
+        <!-- lightbox --> 
+        <script type="text/javascript" src="js/lightbox/jquery.fancybox.js"></script> 
+        <script type="text/javascript" src="js/lightbox/custom.js"></script>
+      </body>
+      </html>
