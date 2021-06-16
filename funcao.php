@@ -6,10 +6,10 @@ function sendMail($de,$para,$nome,$telefone,$mensagem,$assunto){
   $mail->IsSMTP();
   try {
     $mail->SMTPAuth   = true;                 
-    $mail->Host       = 'smtp.intcon.com.br';     
+    $mail->Host       = 'smtp.Sennatech.com.br';     
     /*$mail->SMTPSecure = "tls";                #remova se nao usar gmail
   $mail->Port       = 587;                  #remova se nao usar gmail*/
-    $mail->Username   = 'eric.lemos@intcon.com.br'; 
+    $mail->Username   = 'eric.lemos@Sennatech.com.br'; 
     $mail->Password   = 'Inter@2016';
     $mail->AddAddress($para);
     $mail->AddReplyTo($de);
