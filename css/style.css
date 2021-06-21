@@ -39,13 +39,13 @@
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
 
-h5 { color: #2b2b67; }
+h5 { color: #3C546a; }
 .fontWhite { color: #FFFFFF; }
-.fontBlue { color: #2b2b67; }
+.fontBlue { color: #3C546a; }
 .fontOrange { color: #f26e23; }
 .fontSilver { color: #a5a5a5; }
 
-.bgBlue { background-color: #2b2b67; }
+.bgBlue { background-color: #3C546a; }
 
 
 .sbutton2 {
@@ -92,9 +92,9 @@ display: none;
 }
 
 .bt-outlineOrange {
-	color: #2194d3;
+	color: #1e2a35;
 	padding: 15px 30px;
-	border: 1px solid #2194d3;
+	border: 1px solid #1e2a35;
 	border-radius: 50px;
 	font-size: 18px;
 	font-weight: bold;
@@ -104,12 +104,12 @@ display: none;
 .bt-outlineOrange:hover {
 	color: #ffffff;
     padding: 15px 30px;
-    border: 1px solid #31b457;
+    border: 1px solid #575859;
     border-radius: 50px;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #06315f;
+    background-color: #658db1;
 }
 
 
@@ -124,14 +124,14 @@ display: none;
 }
 
 .bt-outline:hover {
-	color: #ffffff;
+	color: #658db1;
 	padding: 15px 30px;
-    border: 1px solid #31b457;
+    border: 1px solid #658db1;
 	border-radius: 50px;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: #06315f;
+	background-color: #ffffff;
 }
 
 .selos {
@@ -1000,7 +1000,7 @@ margin-bottom: 10px;
 	text-transform: uppercase;
 }
 .feature_section2 a:hover {
-    color: #31b457;
+    color: #658db1;
     border: 1px solid #ffffff;
 }
 
@@ -2475,7 +2475,7 @@ ul.fun_facts {
 	margin: 130px 0;
 }
 
-.parabg-0 {	background: #eee url("../img-newdev/fundoazul.png");}
+.parabg-0 {	background: #eee url("../img-newdev/fundao.png");}
 .parabg-1 {	background: #eee url("../img-langdev/parallax-bg1.jpg");}
 .parabg-2 {	background: #eee url("../img-langdev/parallax-bg2.jpg");}
 .parabg-3 {	background: #eee url("../img-langdev/parallax-bg3.jpg");}
@@ -3146,7 +3146,7 @@ box-shadow: inset 0px 0px 33px 1px rgba(0,0,0,0.75);
 	float: left;
 	width: 100%;
 	padding: 18px 0px 40px 0px;
-	background: #2b2b67 url(../img-langdev/footer-graph2.jpg) no-repeat center bottom;
+	background: #ffffff;
 }
 .footer1 h4 {
 	color: #fff;
@@ -3190,7 +3190,7 @@ ul.faddress {
 	color: #727272;
 }
 .faddress li a:hover {
-	color: #fff;
+	color: #1e2a35;
 }
 
 .logo-footer{
@@ -3743,7 +3743,7 @@ hr {
 
 .phone-contact {
 	font-size: 18px;
-	color: #31b457;
+	color: #1e2a35;
 	font-weight: bold;
 	margin-top: 5px;
 }
@@ -3751,7 +3751,7 @@ hr {
 .mail-contact {
 font-size: 26px;
 font-weight: bold;
-color: #31b457;
+color: #1e2a35;
 margin-top: 15px;
 }
 

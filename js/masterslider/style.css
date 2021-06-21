@@ -355,7 +355,7 @@ text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.31);
     transition:width .3s, height .3s, background-color .3s, transform .3s;
 }
 .sbutton1:hover {
-  color: #31b457;
+  color: #658db1;
   background-color: #ffffff;
 }
 
