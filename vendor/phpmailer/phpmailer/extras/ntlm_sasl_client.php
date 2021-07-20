@@ -135,7 +135,7 @@ class ntlm_sasl_client_class
         );
     }
 
-    public function start(&$client, &$message, &$interactions)
+    public function start(&$client, &$message, &$sennatechctions)
     {
         if ($this->state != SASL_NTLM_STATE_START) {
             $client->error = "NTLM authentication state is not at the start";
@@ -148,7 +148,7 @@ class ntlm_sasl_client_class
             "workstation" => ""
         );
         $defaults = array();
-        $status = $client->GetCredentials($this->credentials, $defaults, $interactions);
+        $status = $client->GetCredentials($this->credentials, $defaults, $sennatechctions);
         if ($status == SASL_CONTINUE) {
             $this->state = SASL_NTLM_STATE_IDENTIFY_DOMAIN;
         }
@@ -156,7 +156,7 @@ class ntlm_sasl_client_class
         return ($status);
     }
 
-    public function step(&$client, $response, &$message, &$interactions)
+    public function step(&$client, $response, &$message, &$sennatechctions)
     {
         switch ($this->state) {
             case SASL_NTLM_STATE_IDENTIFY_DOMAIN:

@@ -548,7 +548,7 @@ z-index: 99;
 .stripe-gray {
 	height:250px;
 	background: #f4f4f4;
-	background-image: url('../img-langdev/logo-intera-header.png');
+	background-image: url('../img-langdev/logo-sennatech-header.png');
 	background-repeat: no-repeat;
 	background-position: 50% 185px;
 	background-attachment: fixed;
@@ -3710,10 +3710,10 @@ ul.fsocials {
 	line-height: 17px;
 }
 
-.facticon01 {background-image: url("../img-langdev/icons/intera01.png")}
-.facticon02 {background-image: url("../img-langdev/icons/intera02.png")}
-.facticon03 {background-image: url("../img-langdev/icons/intera03.png")}
-.facticon04 {background-image: url("../img-langdev/icons/intera04.png")}
+.facticon01 {background-image: url("../img-langdev/icons/sennatech01.png")}
+.facticon02 {background-image: url("../img-langdev/icons/sennatech02.png")}
+.facticon03 {background-image: url("../img-langdev/icons/sennatech03.png")}
+.facticon04 {background-image: url("../img-langdev/icons/sennatech04.png")}
 
 .feature_section35 .one_half {
 	text-align: center;
