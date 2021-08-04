@@ -26,7 +26,7 @@ $mailer->SMTPSecure = 'tls'; // Protocolo de porta
 $mailer->Port       = '587'; //  Usar a sua porta SMTP
 $mailer->Host       = 'smtp.gmail.com';  //Servidor SMTP (Autenticação, use smtp.seudomínio.com.br)
 $mailer->Username   = 'contato.Sennatech@gmail.com'; // Usuário do servidor SMTP (endereço de email)
-$mailer->Password   = 'Inter@2016'; // Senha do servidor SMTP (senha do email usado)
+$mailer->Password   = 'IntCon@2021'; // Senha do servidor SMTP (senha do email usado)
 
 $mailer->setFrom('contato@Sennatech.com.br', 'Sennatech'); // E-mail e Nome que o deseja representa-lo
 //SMTP --> Final 

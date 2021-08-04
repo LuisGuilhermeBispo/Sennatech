@@ -9,8 +9,8 @@ function sendMail($de,$para,$nome,$telefone,$mensagem,$assunto){
     $mail->Host       = 'smtp.Sennatech.com.br';     
     /*$mail->SMTPSecure = "tls";                #remova se nao usar gmail
   $mail->Port       = 587;                  #remova se nao usar gmail*/
-    $mail->Username   = 'eric.lemos@Sennatech.com.br'; 
-    $mail->Password   = 'Inter@2016';
+    $mail->Username   = 'luis.bispo@sennatech.com.br'; 
+    $mail->Password   = 'Intcon@2001';
     $mail->AddAddress($para);
     $mail->AddReplyTo($de);
     $mail->SetFrom($de);
