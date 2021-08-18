@@ -28,7 +28,7 @@ $mailer->SMTPSecure = 'tls'; // Protocolo de porta
 $mailer->Port       = '587'; //  Usar a sua porta SMTP
 $mailer->Host       = 'smtp.gmail.com';  //Servidor SMTP (Autenticação, use smtp.seudomínio.com.br)
 $mailer->Username   = 'contato.Sennatech@gmail.com'; // Usuário do servidor SMTP (endereço de email)
-$mailer->Password   = 'Inter@2016'; // Senha do servidor SMTP (senha do email usado)
+$mailer->Password   = 'Sennatech#2021'; // Senha do servidor SMTP (senha do email usado)
 
 $mailer->setFrom('contato@Sennatech.com.br', 'Sennatech'); // E-mail e Nome que o deseja representa-lo
 //SMTP --> Final
@@ -70,10 +70,10 @@ $mailer->SMTPAuth   = true;
 $mailer->SMTPSecure = 'tls'; // Protocolo de porta
 $mailer->Port       = '587'; //  Usar a sua porta SMTP
 $mailer->Host       = 'smtp.Sennatech.com.br';  //Servidor SMTP (Autenticação, use smtp.seudomínio.com.br)
-$mailer->Username   = 'eric.lemos@Sennatech.com.br'; // Usuário do servidor SMTP (endereço de email)
-$mailer->Password   = 'Inter@2016'; // Senha do servidor SMTP (senha do email usado)
+$mailer->Username   = 'luis.bispo@Sennatech.com.br'; // Usuário do servidor SMTP (endereço de email)
+$mailer->Password   = 'Sennatech#2021'; // Senha do servidor SMTP (senha do email usado)
 
-$mailer->setFrom(['eric.lemos@Sennatech.com.br', 'Eric']); // E-mail e Nome que o deseja representa-lo
+$mailer->setFrom(['luis.bispo@Sennatech.com.br', 'Eric']); // E-mail e Nome que o deseja representa-lo
 //SMTP --> Final
 
 
@@ -81,6 +81,6 @@ $pp->Subject = "Form - Trabalhe na Sennatech";
 
 $pp->attachFiles(['image']);
 
-$pp->sendEmailTo('eric.lemos@Sennatech.com.br'); // ← Troque o E-Mail Aqui // 
+$pp->sendEmailTo('luis.bispo@Sennatech.com.br'); // ← Troque o E-Mail Aqui // 
 
 echo $pp->process($_POST); */
